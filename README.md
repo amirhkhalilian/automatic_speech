@@ -1,2 +1,38 @@
 ## Neural Dynamics of Automatic Speech Production
-The source code for "Neural Dynamics of Automatic Speech Production"
+
+This repository provides a pipeline for **neural dynamics of automatic speech production**. We look at ECoG recordings during speech production tasks like counting and reciting name of days and months. The code implements **multivariate temporal response function (mTRF)** model to quantify how audio features map to neural activity (encoding), as well as speech decoding.
+
+---
+
+## Overview
+
+The core goals of this project are:
+
+- **Encoding**: Model the relationship between continuous speech audio and neural responses using regularized mTRF models.
+- **Decoding**: Quantify how well neural activity predicts or reconstructs speech-related representations.
+
+## Related Projects
+
+This repository builds on and complements the following projects:
+
+- **ADMM-based mTRF solver**:
+  [https://github.com/amirhkhalilian/ADMM_mTRF](https://github.com/amirhkhalilian/ADMM_mTRF)
+  Sparse and scalable optimization for multivariate temporal response functions.
+
+- **Mithra**:
+  [https://github.com/amirhkhalilian/Mithra](https://github.com/amirhkhalilian/Mithra)
+  An open-source visualization toolbox for ECoG and sEEG recordings.
+
+---
+
+## Example Usage
+
+Run a single subject–task analysis from the command line:
+
+```bash
+python single_subj_analysis.py --idx <INDEX>
+```
+
+---
+## Citation
+
