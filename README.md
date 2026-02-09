@@ -11,6 +11,10 @@ The core goals of this project are:
 - **Encoding**: Model the relationship between continuous speech audio and neural responses using regularized mTRF models.
 - **Decoding**: Quantify how well neural activity predicts or reconstructs speech-related representations.
 
+<p align="center">
+  <img src="_assets/decoding_net.png" width="600">
+</p>
+
 ## Related Projects
 
 This repository builds on and complements the following projects:
