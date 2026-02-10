@@ -8,8 +8,13 @@ This repository provides a pipeline for **neural dynamics of automatic speech pr
 
 The core goals of this project are:
 
-- **Encoding**: Model the relationship between continuous speech audio and neural responses using regularized mTRF models.
-- **Decoding**: Quantify how well neural activity predicts or reconstructs speech-related representations.
+- **Encoding**: We model the relationship between continuous speech audio and neural responses using regularized mTRF models.
+
+<p align="center">
+  <img src="_assets/encoding_mTRF.png" width="600">
+</p>
+
+- **Decoding**: We estimate the articulatory trajectories of [SPARC](https://github.com/Berkeley-Speech-Group/Speech-Articulatory-Coding) from the neural signals, and during evaluation we use the SPARC synthesis module to generate the corresponding audio waveform.
 
 <p align="center">
   <img src="_assets/decoding_net.png" width="600">
@@ -34,7 +39,7 @@ This repository builds on and complements the following projects:
 Run a single subject–task analysis from the command line:
 
 ```bash
-python single_subj_analysis.py --idx <INDEX>
+python main_permute.py --idx <INDEX>
 ```
 
 ---
