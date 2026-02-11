@@ -45,3 +45,17 @@ python main_permute.py --idx <INDEX>
 ---
 ## Citation
 
+```bib
+@article {Khalilian-Gourtani2026.02.10.705088,
+	author = {Khalilian-Gourtani, Amirhossein and Le, Chenqian and Zhou, Faxin and Jenson, Erika and Dugan, Patricia and Devinsky, Orrin and Doyle, Werner and Friedman, Daniel and Wang, Yao and Flinker, Adeen},
+	title = {Neural Dynamics of Automatic Speech Production},
+	elocation-id = {2026.02.10.705088},
+	year = {2026},
+	doi = {10.64898/2026.02.10.705088},
+	publisher = {Cold Spring Harbor Laboratory},
+	URL = {https://www.biorxiv.org/content/early/2026/02/11/2026.02.10.705088},
+	eprint = {https://www.biorxiv.org/content/early/2026/02/11/2026.02.10.705088.full.pdf},
+	journal = {bioRxiv}
+}
+
+```
